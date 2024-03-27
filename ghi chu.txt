@@ -1,0 +1,77 @@
+string:'ajfakfjkakskld'
+number 1234, 1.2
+boolean 
+a=2;
+b=3;
+if(a>b){
+    return true;
+}else {
+    return false;
+}
+
+////////////////// ref type : ngoi nha
+function 
+a=2;b=3
+function tinhtong(a,b){
+    sum=a+b;
+    return sum;
+}
+tong=tinhtong(a,b);
+console.log(tong);
+array
+arr=[1,2,3,4]
+ar=[{
+    name :manh,
+    tien: 100
+},...]
+object
+let person={
+    name: manh,
+    age: 28,
+    city: hanoi
+}
+
+
+
+falsy: false, 0, '', NaN, null, undefined
+* / %  += -= == ===  ! >= <= ?
+&& || 
+a>b ?
+NaN
+console.log(0/0);
+let a=null;
+undefined
+let x;
+console.log(x);
+let person={name: manh};
+console.log(person.age)
+
+if(){}else{}
+arr=[1,2,3,4];
+for(let i=0;i<arr.length;i++){
+console.log(arr[i]);
+}
+while()
+let i=0
+while(i< 100){
+    console.log(i);
+    i++;
+}
+
+switch case:
+let fruit="";
+switch(fruit){
+    case "banana":
+        console.log("This is banana");
+        break;
+    case "apple":
+        console.log("This is apple");
+        break;
+    case "lemon":
+        console.log("This is lemon");
+        break;
+    default:
+        console.log("unknow fruit");
+        break;
+
+}
